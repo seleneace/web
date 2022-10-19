@@ -20,12 +20,15 @@
     margin-left: 15%;
     margin-top: 5%;
 }
+.heading {
+    color: #6171ffff;
+}
 </style>
 <template>
     <div class='earth'></div>
     <div class='moon'></div>
     <div class='w-screen h-screen flex items-center justify-center background flex-col gap-y-4'>
-        <h1 class='text-black text-5xl'>seleneace</h1>
+        <h1 class='heading text-5xl'>seleneace</h1>
         <div class='bg-white shadow-lg h-96 w-96 rounded-lg flex content-start items-center flex-col gap-y-6'>
             <div class='mt-12'>
                 <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">Username</label>
